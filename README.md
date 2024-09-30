@@ -1,79 +1,105 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Navigation Project
 
-# Getting Started
+This project is a simple React Native application featuring two primary screens: Login and ScreenPage. Users can navigate between these two screens. The Login and SignUp functionalities have not yet been integrated. Additionally, the project utilizes nativewind and react-native-reanimated libraries to enhance styling and animations.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Video gif
 
-## Step 1: Start the Metro Server
+![](./assets/images/onelog.gif)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Table of Contents
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- Features
+- Technologies and Libraries Used
+- Installation
+- Contributing
+- Contact
 
-```bash
-# using npm
-npm start
+## Features
 
-# OR using Yarn
-yarn start
+- Login Screen: Allows users to input their credentials (functionality not yet integrated).
+- ScreenPage: The main screen users are navigated to after logging in.
+- Navigation: Utilizes React Navigation to facilitate transitions between screens.
+- Styling: Managed using nativewind for Tailwind CSS-like utility classes.
+- Animations: Enhanced with react-native-reanimated for performant animations.
+
+## Technologies and Lİbraries Used
+
+- React Native
+- React Navigation
+- @react-navigation/native
+- @react-navigation/native-stack
+- NativeWind
+- React Native Reanimated
+- JavaScript
+
+## Installation
+
+- Clone the project to your local machine:
+  git clone https://github.com/ozerbaykal/react-native-navigation-project-.git
+
+- Navigate to the project directory:
+
+```
+cd react-native-navigation-project
 ```
 
-## Step 2: Start your Application
+- Install the necessary packages:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+```
+npm install
+```
 
-### For Android
+- Additional Steps
 
-```bash
-# using npm
+For iOS(optinal)
+If you intend to run the project on an iOS device or simulator, you need to install CocoaPods dependencies.
+
+```
+cd ios
+pod install
+cd ..
+
+```
+
+Note: Ensure that you are using a macOS system with Xcode installed.
+
+## Running the Project
+
+You can run the React Native application using the following commands:
+
+### Android
+
+```
 npm run android
 
-# OR using Yarn
-yarn android
 ```
 
-### For iOS
+### iOS
 
-```bash
-# using npm
+```
 npm run ios
 
-# OR using Yarn
-yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Starting the Development Server
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+```
+npm start
 
-## Step 3: Modifying your App
+```
 
-Now that you have successfully run the app, let's modify it.
+<h2>Contributing</h2>
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Contributions are welcome! Please open an issue first to discuss what you would like to change.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+- 1.Fork the project
+- 2.Create your feature branch (git checkout -b feature/NewFeature)
+- 3.Commit your changes (git commit -m 'Add new feature')
+- 4.Push to the branch (git push origin feature/NewFeature)
+- 5.Open a Pull Request
 
-## Congratulations! :tada:
+<h2>Contact</h2>
 
-You've successfully run and modified your React Native App. :partying_face:
+Özer BAYKAL mail : baykalozer87@gmail.com
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Project Link: https://github.com/ozerbaykal/react-native-navigation-ptoject
